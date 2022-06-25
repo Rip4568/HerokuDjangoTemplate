@@ -30,7 +30,7 @@ DEBUG = True
 #DEBUG = os.getenv('DEBUG',False)#carregado pela dependencia dot-env
 
 ALLOWED_HOSTS = ['*']
-
+#Configurações para as habilitações dos hots necessarias para maior segurança
 
 # Application definition
 
