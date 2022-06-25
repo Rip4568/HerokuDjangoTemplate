@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-3gsbej46#+!_^dvtu^k6d&5u+wflnjoc+6s%ow(qmu&+0_p3_y
 DEBUG = True
 #DEBUG = os.getenv('DEBUG',False)#carregado pela dependencia dot-env
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
