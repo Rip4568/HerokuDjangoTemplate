@@ -1,1 +1,7 @@
-heroku git:remote -a nome-do-appHeroku
+heroku git:remote -a nome-do-appHeroku #para adicionar o projeto ao devcenter do heroku
+
+git push heroku master #apos fazer todas as alterações e mandar para o git, enviar as atts para o heroku.
+
+heroku run python manage.py migrate #fazer as migrações do BD
+
+heroku run python manage.py createsuperuser #criar um usuario ADMIN
